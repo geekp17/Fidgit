@@ -15,4 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::post('/button', 'ButtonController@add');
+Route::post('/wunderlist', 'WunderlistController@add');
